@@ -1,0 +1,693 @@
+@font-face {
+	font-family: 'rubik'; 
+	src: url(../fonts/Rubik/Rubik-VariableFont_wght.ttf);
+}
+@font-face {
+	font-family: 'sans'; 
+	src: url(../fonts/DM_Sans/DMSans-VariableFont_opsz\,wght.ttf);
+}
+
+/*HEADER*/
+
+header {
+	width: 100%;
+}
+.navmain{
+	background-color: #ff9900;
+	width: 95%;
+	height: 50px;
+	border-radius: 7px;
+	text-align: center;
+	color: white;
+	height: auto;
+	padding: 20px;
+	font-family: 'rubik';
+	font-size: 20px;
+	margin: 20px;
+	margin-left: auto;
+    margin-right: auto;
+}
+.navbar{
+	max-width: 90%;
+	margin-left: auto;
+    margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.nav{
+	display: flex;
+	justify-content: center;
+}
+.nav a{
+	text-decoration: none;
+	margin: 30px;
+	color: rgb(10, 10, 10);
+	font-family: 'rubik';
+	font-size: 17px;
+}
+.nav a:hover{
+	color: #ff9900;
+}
+.nav button{
+	width: 120px;
+	height: 55px;
+	margin: 10px;
+	border-style: none;
+	border-radius: 7px;
+	background-color: #ff9900;
+	color: white;
+	font-family: 'rubik';
+	font-size: 17px;
+	cursor: pointer;
+	transition: background-color 0.4s, box-shadow 0.2s 0.3s;
+}
+.nav button:hover{
+	background-color: #ff7300; /* Цвет фона */
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #ff7300;
+}
+.nav button:active{
+	letter-spacing: normal;
+	transition: 0.1s;
+	transform: translateY(2px);
+	box-shadow: none;
+}
+#nav2{
+	display: none;
+}
+
+@media(max-width:500px){
+
+	header{
+		max-width: 100%;
+		margin: auto;
+		justify-content: center;
+	}
+	.navmain{
+		background-color: #ff9900;
+		max-width: 90%;
+		height: 41px;
+		font-size: 5x;
+		margin: auto;
+		border-radius: 10px;
+		width: 95%;
+	}
+	.navbar{
+		width: 90%;
+		margin: auto;
+	}
+	.nav {
+		margin: auto;
+	}
+	#nav2{
+		display: none;
+	}
+	.nav a{
+		text-decoration: none;
+		margin: 30px;
+		color: rgb(10, 10, 10);
+		font-family: 'rubik';
+		font-size: 13px;
+	}
+}
+
+/*SECTION1*/
+
+.sec1{
+	max-width: 50%;
+	height: 400px;
+	margin-top: 150px;
+	margin-bottom: 150px;
+	margin-left: auto;
+    margin-right: auto;
+
+}
+.textmain{
+	background-color: #FFF4E5;
+	border-radius: 10px;
+	margin-left: auto;
+    margin-right: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 80%;
+}
+.div1{
+	color: #ff9900;
+	font-family: 'rubik';
+	font-size: 40px;
+	font-weight: 500;
+	margin: 10px;
+}
+.div{
+	color: rgb(10, 10, 10);
+	font-family: 'rubik';
+	font-size: 40px;
+	font-weight: 500;
+	margin: 10px;
+}
+.texts{
+	text-align: center;
+	margin-top: 90px;
+	margin-bottom: 90px;
+}
+.texts .div1{
+	color: rgb(10, 10, 10);
+	font-size: 40px;
+	font-family: 'rubik';
+}
+.texts .div{
+	color: rgb(10, 10, 10);
+	font-size: 20px;
+	font-family: 'rubik';
+}
+.buttons{
+	display: flex;
+	justify-content: space-between;
+	width: 325px;
+	margin-left: auto;
+    margin-right: auto;
+	align-items: center;
+}
+.buttons button{
+	width: 195px;
+	height: 63px;
+	background-color: #ff9900;
+	border-style: none;
+	border-radius: 7px;
+	font-family: 'rubik';
+	font-size: 20px;
+	color: white;
+	cursor: pointer;
+	transition: background-color 0.4s, box-shadow 0.2s 0.3s;
+
+}
+.buttons button:hover{
+	background-color: #ff7300; /* Цвет фона */
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #ff7300;
+}
+.buttons button:active{
+	letter-spacing: normal;
+	transition: 0.1s;
+	transform: translateY(2px);
+	box-shadow: none;
+  }
+.buttons a{
+	color: rgb(10, 10, 10);
+	font-family: 'rubik';
+	font-size: 17px;
+	text-decoration: none;
+}
+.buttons a:hover{
+	color: #ff9900;
+}
+.imgsec1{
+	background-color: #FFF4E5;
+	width: 90%;
+	border-radius: 10px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 150px;
+}
+.imgsec1 img{
+ 	cursor: pointer;
+}
+
+@media(max-width:500px){
+	.sec1{
+		max-width: 100%;
+		margin-bottom: 40px;
+	}
+	.textmain{
+		max-width: 90%;
+		margin: auto;
+	}
+	.textmain .div1{
+		color: #ff9900;
+		font-family: 'rubik';
+		font-size: 20px;
+		font-weight: 500;
+		margin: 10px;
+	}
+	.textmain .div{
+		color: rgb(10, 10, 10);
+		font-family: 'rubik';
+		font-size: 20px;
+		font-weight: 500;
+		margin: 10px;
+	}
+	.sec1 .texts{
+		width: 90%;
+		margin: auto;
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
+	.texts .div1{
+		font-size: 20px;
+		font-family: 'rubik';
+	}
+	.texts .div{
+		font-size: 10px;
+		font-family: 'rubik';
+	}
+	.buttons{
+		display: flex;
+		justify-content: space-between;
+		width: 253px;
+		margin-left: auto;
+		margin-right: auto;
+		align-items: center;
+	}
+	.buttons button{
+		width: 154px;
+		height: 49px;
+		background-color: #ff9900;
+		border-style: none;
+		border-radius: 7px;
+		font-family: 'rubik';
+		font-size: 15px;
+		color: white;
+		cursor: pointer;
+		transition: background-color 0.4s, box-shadow 0.2s 0.3s;
+	
+	}
+	.buttons button:hover{
+		background-color: #ff7300; /* Цвет фона */
+		box-shadow: 0 0 0 2px #fff, 0 0 0 4px #ff7300;
+	}
+	.buttons button:active{
+		letter-spacing: normal;
+		transition: 0.1s;
+		transform: translateY(2px);
+		box-shadow: none;
+	  }
+	.buttons a{
+		color: rgb(10, 10, 10);
+		font-family: 'rubik';
+		font-size: 12px;
+		text-decoration: none;
+	}
+	.buttons a:hover{
+		color: #ff9900;
+	}
+	.imgsec1{
+		display: none;
+	}
+}
+
+/*SECTION2*/
+
+.sec2{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	margin-bottom: 150px;
+}
+
+.slider{
+    max-width: 80%;
+    /* Положение элемента устанавливается относительно его исходной позиции: */
+    position: relative;
+    /* Центрируем по горизонтали: */
+    margin: auto;
+	margin-top: 50px;
+    height: 743px;
+	background-color: rgb(255, 198, 164);
+	border-radius: 10px;
+}
+/* Картинка масштабируется по отношению к родительскому элементу: */
+.slider .item img {
+    /* Элемент меняет размер так, чтобы заполнить блок и сохранить пропорции: */
+    object-fit: cover;
+    width: 100%;
+	height: 743px;
+	border-radius: 10px;
+}
+/* Кнопки назад и вперёд: */
+.slider .previous, .slider .next {
+    /* Добавляет курсору иконку, когда тот оказывается над кнопкой: */
+    cursor: pointer;
+    /* Положение элемента задаётся относительно границ браузера: */
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    /* Оформление самих кнопок: */
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    /* Плавное появление фона при наведении курсора: */
+    transition: 0.6s ease;
+    /* Скругление границ: */
+    border-radius: 0 3px 3px 0;
+}
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+/* При наведении курсора на кнопки добавляем фон кнопок: */
+.slider .previous:hover,
+.slider .next:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+/* Анимация слайдов: */
+.slider .item {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    /* Устанавливаем и изменяем степень прозрачности: */
+    from {
+        opacity: 0.4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.text p{
+	font-family: 'rubik';
+	font-size: 20px;
+	text-align: justify;
+}
+.text a{
+	font-family: 'rubik';
+	font-size: 40px;
+	font-weight: 500;
+}
+
+@media (max-width: 500px){
+	.sec2{
+		margin-bottom: 50px;
+	}
+	.slider{
+		max-width: 358px;
+		/* Положение элемента устанавливается относительно его исходной позиции: */
+		position: relative;
+		/* Центрируем по горизонтали: */
+		margin: auto;
+		margin-top: 50px;
+		height: auto;
+		background-color: rgb(255, 198, 164);
+		border-radius: 10px;
+	}
+	/* Картинка масштабируется по отношению к родительскому элементу: */
+	.slider .item img {
+		/* Элемент меняет размер так, чтобы заполнить блок и сохранить пропорции: */
+		object-fit: cover;
+		width: 100%;
+		height: auto;
+		border-radius: 10px;
+	}
+	.sec2 .text{
+		margin: auto;
+		width: 95%;
+	}
+	.text{
+		text-align: justify;
+	}
+	.text p{
+		font-family: 'rubik';
+		font-size: 15px;
+	}
+	.text a{
+		font-family: 'rubik';
+		font-size: 25px;
+		font-weight: 500;
+	}
+	
+}
+
+/*SECTION3*/
+
+.sec3{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	margin-bottom: 150px;
+}
+.cards{
+	display: flex;
+	justify-content: space-between;
+}
+.card{
+	background-color: #fff7ec;
+	border-radius: 10px;
+	margin: 40px;
+	width: 783px;
+	height: 807px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-radius: 10px;
+	transition: background-color 0.4s;
+}
+.card:hover{
+	background-color: #ffefda;
+	letter-spacing: normal;
+	transition: 0.1s;
+	transform: translateY(10px);
+	box-shadow: 0px 20px 0px 0px rgba(216, 68, 0, 0.267);
+}
+.imgcard{
+	margin: auto;
+	width: 683px;
+	height: 380px;
+}
+.textmaincard{
+	display: flex;
+	justify-content: space-between;
+}
+#div1{
+	border-width:2px;
+	border-style:solid;
+	border-color:rgb(248, 247, 247);
+	background-color: white;
+	border-radius: 10px;
+	padding: 17px;
+	font-family: 'rubik';
+	font-size: 17px;
+}
+#div2{
+	border-width:2px;
+	padding: 20px;
+	font-family: 'rubik';
+	font-size: 17px;
+	font-weight: 500;
+}
+.card .texts{
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 683px;
+	height: 254px;
+}
+.cardbutton{
+	margin-right: auto;
+	margin-left: auto;
+	width: 683px;
+	height: 63px;
+}
+.cardbutton button{
+	width: 683px;
+	height: 63px;
+	color: rgb(10, 10, 10);
+	font-family: 'rubik';
+	font-size: 17px;
+	font-weight: 500;
+	border-style: none;
+	border-radius: 10px;
+	background-color: white;
+	cursor: pointer;
+	transition: background-color 0.4s;
+}
+.cardbutton button:hover{
+	background-color: rgb(230, 230, 230);
+}
+.cardbutton button:active{
+	letter-spacing: normal;
+	transition: 0.1s;
+	transform: translateY(2px);
+	box-shadow: none;
+}
+#p1{
+	font-family: 'rubik';
+	text-align:justify;
+	font-size: 27px;
+	font-weight: 500;
+}
+#p2{
+	font-family: 'rubik';
+	text-align: left;
+	font-size: 17px;
+	text-align:justify;
+
+}
+
+@media (max-width: 500px){
+	.sec3 .text{
+		margin: auto;
+		width: 95%;
+	}
+	.cards{
+		flex-direction:column;
+	}
+	.card{
+		background-color: #fff7ec;
+		border-radius: 10px;
+		margin: auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		width: 95%;
+		height: auto;
+		border-radius: 10px;
+		transition: background-color 0.4s;
+	}
+	.imgcard {
+		margin: auto;
+		width: 85%;
+		height: auto;
+	}
+	.imgcard img{
+		margin: auto;
+		width: 100%;
+		height: auto;
+	}
+	#div1{
+		border-width:2px;
+		border-style:solid;
+		border-color:rgb(248, 247, 247);
+		background-color: white;
+		border-radius: 10px;
+		padding: 10px;
+		font-family: 'rubik';
+		font-size: 13px;
+		width: 86px;
+		height: 24px;
+	}
+	#div2{
+		border-width:2px;
+		padding: 20px;
+		font-family: 'rubik';
+		font-size: 10px;
+		font-weight: 500;
+	}
+	.card .texts {
+		width: 85%;
+		height: auto;
+		margin: auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	#p1{
+		font-family: 'rubik';
+		text-align:justify;
+		font-size: 17px;
+		font-weight: 500;
+	}
+	#p2{
+		font-family: 'rubik';
+		text-align: left;
+		font-size: 12px;
+		text-align:justify;
+	}
+	.cardbutton{
+		margin-right: auto;
+		margin-left: auto;
+		width: 85%;
+		height: 39px;
+	}
+	.cardbutton button{
+		margin: auto;
+		width: 100%;
+		height: 39px;
+		color: rgb(10, 10, 10);
+		font-family: 'rubik';
+		font-size: 15px;
+		font-weight: 500;
+		border-style: none;
+		border-radius: 10px;
+		background-color: white;
+		cursor: pointer;
+		transition: background-color 0.4s;
+	}
+}
+
+/*FOOTER*/
+
+.footer{
+	background-color: #FFF4E5;
+	width: 100%;
+	height: auto;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.footcontent{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.footcolumn{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.footicon{
+	margin: 70px;
+}
+.footh{
+	font-family: 'rubik';
+	font-size: 20px;
+	font-weight: 500;
+	margin: 20px;
+}
+.footp{
+	font-family: 'rubik';
+	font-size: 20px;
+	margin: 20px;
+}
+.footp a{
+	text-decoration: none;
+	color: black;
+}
+.footp a:hover{
+	color: #ff9900;
+}
+.footp img{
+	margin-right: 20px;
+}
+
+@media (max-width:500px){
+	footer{
+		width: 100%;
+	}
+	.footer{
+		width: 100%;
+	}
+	.footcontent{
+		width: 95%;
+		margin: auto;
+		display: flex;
+		justify-content: space-between;
+	}
+	.footp img{
+		width: 20px;
+		height: 20px;
+	}
+	.footicon{
+		display: none;
+	}
+	.footh{
+		font-family: 'rubik';
+		font-size: 10px;
+		font-weight: 500;
+		margin: 10px;
+	}
+	.footp{
+		font-family: 'rubik';
+		font-size: 9px;
+		margin: 10px;
+		align-items: center;
+	}
+}
+

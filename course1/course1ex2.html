@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/course1ex1.css">
+</head>
+<body>
+    <div class="app">
+        <div class="menu">
+            <div class="menucontent">
+                <div class="p">Модуль 02</div>
+                <button class="button" aria-expanded="false" aria-controls="list">
+                    Теориетические материалы
+                </button>
+                <ul class="menu1" id="list" aria-hidden="true">
+                    <li class="menu-item">
+                        <a href="#" class="menu-link" onclick="openForm1()" tabindex="-1" id="next">Что такое числа</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link" onclick="openForm2()" tabindex="-1">Сравнение чисел</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link" onclick="openForm3()" tabindex="-1">Четные и нечетные числа</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link" onclick="openForm4()" tabindex="-1">Виды величин</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link" onclick="openForm5()" tabindex="-1">Сравнение величин</a>
+                    </li>
+                </ul>
+
+                <button class="button1" aria-expanded1="false" aria-controls1="list">
+                    Практические задания
+                </button>
+                <ul class="menu11" id="list1" aria-hidden1="true">
+                    <li class="menu-item1">
+                        <a href="#" class="menu-link1" onclick="openForm6()" class="btn1" tabindex1="-1">Задание на счет</a>
+                    </li>
+                    <li class="menu-item1">
+                        <a href="#" class="menu-link1" onclick="openForm7()" tabindex1="-1">Уравнивание чисел</a>
+                    </li>
+                    <li class="menu-item1">
+                        <a href="#" class="menu-link1" onclick="openForm8()" tabindex1="-1">Чет/нечет</a>
+                    </li>
+                    <li class="menu-item1">
+                        <a href="#" class="menu-link1" onclick="openForm9()" tabindex1="-1">Перевод величин</a>
+                    </li>
+                    <li class="menu-item1">
+                        <a href="#" class="menu-link1" onclick="openForm10()" tabindex1="-1">Сравнение величин</a>
+                    </li>
+                </ul>
+                <button class="btnfin" onclick="document.location='../course1.html'">Завершить</button>
+            </div>
+        </div>
+        <div class="content">
+            <div class="text" id="text1">
+                <div class="h2">Что такое число и цифра</div>
+                <div class="p">Число — это математическое понятие.<br>С помощью чисел мы можем записать количество определённых предметов. Для записи слов используют буквы. А для записи чисел — цифры.</div>
+                <div class="p">Цифра — это знак для записи чисел.<br>Числа могут быть или однозначными, или многозначными. Разберём подробнее.</div>
+            </div>
+            <div class="text" id="text2">
+                <div class="h2">Сравнение чисел (больше,меньше, равно)</div>
+                <div class="p">Знак «больше» обозначается как «>», представляя собой стрелку, направленную вправо. Важно обращать внимание на левую часть символа. Если стрелка начинается с двух линий, соединяющихся в одной точке справа, это означает «больше».</div>
+                <div class="p">Символ «меньше» выглядит как «<«. Проще говоря, стрелка должна указывать влево. Снова же, важно обращать внимание на левую часть стрелки. Если точка, из которой выходят две линии, находится слева, это символ «меньше».</div>
+                <div class="p">Символ «Равно» состоит из двух одинаковых полосок, обозначая «одинаковость» по обеим сторонам. Он используется, когда количество предметов или цифр в обеих частях уравнения одинаково.</div>
+            </div>
+            <div class="text" id="text3">
+                <div class="h2">Четные, нечетные</div>
+                <div class="p">Четные и нечетные числа - это категории натуральных чисел, которые можно определить следующим образом:</div>
+                <div class="p">Число называется четным, если оно делится на 2 без остатка, то есть если остаток от деления на 2 равен нулю. Формально, число n является четным, если существует целое число k, такое что n=2⋅k.<br>Примеры четных чисел: 2, 4, 6, 8, 10, …</div>
+                <div class="p">Наоборот, число называется нечетным, если оно не делится на 2 без остатка, то есть если остаток от деления на 2 не равен нулю. Формально, число n является нечетным, если существует целое число k, такое что n=2⋅k+1.<br>Примеры нечетных чисел: 1, 3, 5, 7, 9, …</div>
+            </div>
+            <div class="text" id="text4">
+                <div class="h2">Какие есть величины?</div>
+                <div class="p">Величина – одно из основных математических понятий, возникшее в древности и в процессе длительного развития подвергшееся ряду обобщений. Длина, площадь, объем, масса, скорость и многие другие – все это величины.</div>
+                <div class="p">Основные меры измерения:</div>
+                <div class="p">1т = 1000кг, 1кг = 1000г, 1г = 1000мг.</div>
+                <div class="p">1км = 1000м, 1м = 10дм, 1дм = 10см, 1см = 10мм.</div>
+            </div>
+            <div class="text" id="text5">
+                <div class="h2">Сравнение величин</div>
+                <div class="p">Сравнивая величины непосредственно мы можем установить их равенство или неравенство. Например, сравнивая полоски по длине наложением или приложением, можно установить, равны они или нет:</div>
+                <div class="p">- если концы совпадают, то полоски имеют равную длину;</div>
+                <div class="p">- если левые концы совпадают, а правый конец нижней полоски выступает, то ее длина больше.</div>
+                <div class="p">Для получения более точного результата сравнения величины измеряют. Измерение заключается в сравнении данной величины с некоторой величиной, принятой за единицу.</div>
+                <div class="p">Измеряя массу арбуза на весах, сравнивают ее с массой гири.</div>
+                <div class="p">Измеряя длину комнаты шагами, сравнивают ее с длиной шага.</div>
+                <div class="p">Процесс сравнения зависит от рода величины: длину измеряют с помощью линейки, массу — используя весы. По каким бы ни был этот процесс, в результате измерения получается определенное число, зависящее от выбранной единицы величины.</div>
+            </div>
+            <div class="text" id="text6">
+                <div class="h2">Посчитай правильно</div>
+                <div class="textcontent">
+                    <div class="img"></div>
+                    <div class="reshenie">
+                        <p>Сколько на картинке</p>
+                        <p>Автобусов <input type="text" id="z_1"></p>
+                        <p>Солнышек <input type="text" id="z_2"></p>
+                        <p>Карандашиков <input type="text" id="z_3"></p>
+                        <button onclick="proverit()">Проверить</button>
+                        <div id="rezultat"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="text" id="text7">
+                <div class="h2">Уровняй</div>
+                <div class="textcontent">
+                    <div class="ex2reshenie">
+                        <p>Расставь правильно знаки равенства</p>
+                        <p>7 <input type="text" id="ex2z1"> 3</p>
+                        <p>-9 <input type="text" id="ex2z2"> 2</p>
+                        <p>-5 <input type="text" id="ex2z3"> 5</p>
+                        <button onclick="ex2proverit()">Проверить</button>
+                        <div id="ex2rezultat"></div>
+                    </div>
+                    <div class="ex2reshenie">
+                        <p style="color: white;">Расставь правильно знаки равенства</p>
+                        <p>6 <input type="text" id="ex2z4"> 6</p>
+                        <p>12 <input type="text" id="ex2z5">10</p>
+                        <p>3 <input type="text" id="ex2z6"> 3</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text" id="text8">
+                <div class="h2">Определи тип чисел</div>
+                <div class="textcontent">
+                    <div class="img"></div>
+                    <div class="reshenie">
+                        <p>Каких предметов четное кол-во, а каких нет?</p>
+                        <p>Автобусов
+                            <select  id="ex3z1" name="">
+                                <option value="no">нечетное</option>
+                                <option value="yes">четное</option>
+                            </select>
+                        </p>
+                        <p>Солнышек
+                            <select  id="ex3z2" name="">
+                                <option value="no">нечетное</option>
+                                <option value="yes">четное</option>
+                            </select>
+                        </p>
+                        <p>Карандашиков 
+                            <select  id="ex3z3" name="">
+                                <option value="no">нечетное</option>
+                                <option value="yes">четное</option>
+                            </select>
+                        </p>
+                        <button onclick="ex3proverit()">Проверить</button>
+                        <div id="ex3rezultat"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="text" id="text9">
+                <div class="h2">Метрики</div>
+                <div class="textcontent">
+                    <div class="ex2reshenie">
+                        <p>Переведи в разные меры измерения</p>
+                        <p> 10дм = <input type="text" id="ex4z1"> см</p>
+                        <p> 2м = <input type="text" id="ex4z2"> см</p>
+                        <p> 4кг = <input type="text" id="ex4z3"> г</p>
+                        <button onclick="ex4proverit()">Проверить</button>
+                        <div id="ex4rezultat"></div>
+                    </div>
+                    <div class="ex2reshenie">
+                        <p style="color: white;">Расставь правильно знаки равенства</p>
+                        <p> 3т = <input type="text" id="ex4z4"> кг</p>
+                        <p> 20см = <input type="text" id="ex4z5"> мм</p>
+                        <p> 40мм = <input type="text" id="ex4z6"> см</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text" id="text10">
+                <div class="h2">Сравнение величин</div>
+                <div class="textcontent">
+                    <div class="ex2reshenie">
+                        <p>Расставь правильно знаки равенства</p>
+                        <p>3 см <input type="text" id="ex5z1"> 70 мм</p>
+                        <p>2м <input type="text" id="ex5z2"> 200 см</p>
+                        <p>100 мм <input type="text" id="ex5z3"> 15 см</p>
+                        <button onclick="ex5proverit()">Проверить</button>
+                        <div id="ex5rezultat"></div>
+                    </div>
+                    <div class="ex2reshenie">
+                        <p style="color: white;">Расставь правильно знаки равенства</p>
+                        <p>1т <input type="text" id="ex5z4"> 1000 кг</p>
+                        <p>12 кг <input type="text" id="ex5z5"> 1000 г</p>
+                        <p>3000г <input type="text" id="ex5z6"> 3 кг</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="./js/course1ex1-2.js"></script>
+</html>

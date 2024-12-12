@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <div class="centered-header navmain">
+            Бесплатная онлайн платформа для обучения
+        </div>
+        <div class="navbar">
+            <div class="nav" id="nav1">
+                <img src="./img/header/Logo.svg" alt="">
+                <a href="">Главная</a>
+                <a href="#aboutus">О нас</a>
+                <a href="#ourcourses">Курсы</a>
+            </div>
+            <div class="nav" id="nav2">
+                <a href="">Регистрация</a>
+                <button class="custom-btn btn-16">Войти</button>
+            </div>
+        </div>
+        <a name="main"></a>
+    </header>
+
+    <section>
+        <div class="sec1">
+            <div class="textmain">
+                <img src="./img/index/sec1/Icon Container.svg" alt="">
+                <div class="div1">Открой </div> <div class="div">свой потенциал</div>
+            </div>
+            <div class="texts">
+                <div class="div1">с онлайн курсами по математике.</div>
+                <div class="div">учись по методикам экспертов и прокачай свой скилл.</div>
+            </div>
+            <div class="buttons">
+                <button id="scrolltocourses" onclick="document.location='coursespage.html'">Смотреть курсы</button>
+                <a href="#aboutus">узнать больше</a>
+            </div>
+        </div>
+        <div class="imgsec1">
+            <img src="./img/index/sec1/Card.png" alt="">
+            <img src="./img/index/sec1/Card (1).png" alt="">
+            <img src="./img/index/sec1/Card (2).png" alt="">
+            <img src="./img/index/sec1/Card (3).png" alt="">
+            <img src="./img/index/sec1/Card (4).png" alt="">
+            <img src="./img/index/sec1/Card (5).png" alt="">
+            <img src="./img/index/sec1/Card (6).png" alt="">
+        </div>
+    </section>
+
+    <section>
+        <div class="sec2">
+            <div class="text">
+                <a name='aboutus'>О нас</a>
+                <p>Наши онлайн-курсы по математике предоставляют доступ к качественному обучению для учеников разных уровней. Курсы могут охватывать различные темы, такие как алгебра, геометрия, статистика, математический анализ и пр. Важно выбрать курс, который соответствует вашим целям и интересам.</p>
+            </div>
+            <div class="slider">
+                <!-- Первый слайд -->
+                <div class="item">
+                  <img src="./img/index/sec2/Screenshot_1.png">
+                </div>
+                <!-- Второй слайд -->
+                <div class="item">
+                  <img src="./img/index/sec2/Screenshot_2.png">
+                </div>
+                <!-- Третий слайд -->
+                <div class="item">
+                  <img src="./img/index/sec2/Screenshot_3.png">
+                </div>
+                <!-- Четвертый слайд -->
+                <div class="item">
+                    <img src="./img/index/sec2/Screenshot_4.png">
+                  </div>
+                <!-- Кнопки-стрелочки -->
+                <a class="previous" onclick="previousSlide()">&#10094;</a>
+                <a class="next" onclick="nextSlide()">&#10095;</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="sec3">
+            <div class="text">
+                <a name='ourcourses' id="ourcourses">Наши курсы</a>
+                <p>Хотите улучшить свои математические навыки или подготовиться к экзаменам? Наши онлайн-курсы по математике помогут вам достичь поставленных целей, независимо от вашего уровня подготовки!</p>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="imgcard"><img src="./img/index/sec3/card1.png" alt=""></div>
+                    <div class="texts">
+                        <div class="textmaincard">
+                            <div id="div1">Начинающий</div>
+                            <div id="div2">Автор: Кононова Камилла</div>
+                        </div>
+                        <p id="p1">Основы математики</p>
+                        <p id="p2">Курс по математике для начальной школы. СодержитНаш курс по математике для начальной школы предназначен для детей в возрасте от 6 до 10 лет и предоставляет увлекательную и доступную программу обучения, охватывающую ключевые математические концепции и навыки. Цели курса: формирование базовых математических навыков, развитие логического мышления, приобретение навыков работы с мерами.</p>
+                    </div>
+                    <div class="cardbutton"><button onclick="document.location='course1.html'">Начать сейчас</button></div>
+                </div>
+                <div class="card">
+                    <div class="imgcard"><img src="./img/index/sec3/card2.png" alt=""></div>
+                    <div class="texts">
+                        <div class="textmaincard">
+                            <div id="div1">Оптимальный</div>
+                            <div id="div2">Автор: Лениза Абзалова</div>
+                        </div>
+                        <p id="p1">Алгебра</p>
+                        <p id="p2">Наш курс по алгебре предназначен для учащихся 5-9 классов и охватывает основные концепции и темы алгебры, необходимые для успешного освоения предмета и подготовки к экзаменам. Курс разработан с учетом возрастных особенностей и обеспечивает всестороннее понимание алгебры через интерактивные и практические методы обучения.</p>
+                    </div>
+                    <div class="cardbutton"><button onclick="document.location='course2.html'">Начать сейчас</button></div>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="imgcard"><img src="./img/index/sec3/card3.png" alt=""></div>
+                    <div class="texts">
+                        <div class="textmaincard">
+                            <div id="div1">Оптимальный</div>
+                            <div id="div2">Автор: Фокина Екатерина</div>
+                        </div>
+                        <p id="p1">Геометрия</p>
+                        <p id="p2">Наш курс по геометрии создан для учащихся 5-9 классов и охватывает ключевые темы геометрии, которые помогут ученикам развить пространственное мышление и понимание математических концепций. Курс сочетает в себе теорию и практику, обеспечивая учащимся необходимые навыки для успешного изучения геометрии и подготовки к экзаменам.</p>
+                    </div>
+                    <div class="cardbutton"><button onclick="document.location='course3.html'">Начать сейчас</button></div>
+                </div>
+                <div class="card">
+                    <div class="imgcard"><img src="./img/index/sec3/card4.png" alt=""></div>
+                    <div class="texts">
+                        <div class="textmaincard">
+                            <div id="div1">Экспертный</div>
+                            <div id="div2">Автор: Башлыкова Дарья</div>
+                        </div>
+                        <p id="p1">Элементы высшей математики</p>
+                        <p id="p2">Наш курс по элементам высшей математики предназначен для учащихся 10-11 классов и охватывает ключевые концепции, необходимые для глубокого понимания высшей математики. Курс направлен на подготовку студентов к углубленному изучению математики, а также к успешному прохождению экзаменов и олимпиад.</p>
+                    </div>
+                    <div class="cardbutton"><button onclick="document.location='course4.html'">Начать сейчас</button></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="footcontent">
+                <div class="footicon"><img src="./img/header/Logo.svg" alt=""></div>
+                <div class="footcolumn">
+                    <div class="footh">Где нас найти?</div>
+                    <div class="footp"><img src="./img/footer/Icon.svg" alt=""> hello@skillbridge.com</div>
+                    <div class="footp"><img src="./img/footer/Icon (1).svg" alt=""> +91 91813 23 2309</div>
+                    <div class="footp"><img src="./img/footer/Icon (2).svg" alt=""> Somewhere in the World</div>
+                </div>
+                <div class="footcolumn">
+                    <div class="footh">Навигация</div>
+                    <div class="footp"><a href="#main">Главная</a></div>
+                    <div class="footp"><a href="#aboutus">О нас</a></div>
+                    <div class="footp"><a href="#ourcourses">Курсы</a></div>
+                </div>
+                <div class="footcolumn">
+                    <div class="footh">Социальные профили</div>
+                    <div class="footp"><img src="./img/footer/Button.svg" alt=""><img src="./img/footer/Button (1).svg" alt=""><img src="./img/footer/Button (2).svg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<!-- подключение слайдера -->
+<script src="./js/simslide.js"></script>
+</body>
+</html>
